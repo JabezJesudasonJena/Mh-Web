@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat {
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.stat label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alerts {
+    margin-top: 30px;
+}
+
+.alert {
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.graphs {
+    margin-top: 40px;
+}
